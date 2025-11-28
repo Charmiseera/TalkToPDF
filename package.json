@@ -1,0 +1,26 @@
+{
+  "name": "pdf-chat-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/google-genai": "^0.2.16",
+    "@supabase/supabase-js": "^2.86.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "faiss-node": "^0.5.1",
+    "google-auth-library": "^10.2.0",
+    "langchain": "^0.3.30",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
